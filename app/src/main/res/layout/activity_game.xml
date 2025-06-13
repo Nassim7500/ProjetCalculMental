@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/score"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_lives"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/lives"
+            android:textSize="18sp"
+            android:gravity="end" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp" />
+
+    <EditText
+        android:id="@+id/et_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:hint="@string/enter_answer" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mini Math</string>
+    <string name="menu_play">Play</string>
+    <string name="menu_about">About</string>
+
+    <string name="score">Score:</string>
+    <string name="lives">Lives:</string>
+    <string name="enter_answer">Enter your answer</string>
+    <string name="submit">Submit</string>
+
+    <string name="game_over">Game Over</string>
+    <string name="enter_pseudo">Enter your nickname</string>
+    <string name="save">Save</string>
+
+    <string name="about_title">About</string>
+    <string name="team_members">Team members:</string>
+    <string name="features">Features:</string>
+    <string name="feature_1">Random calculations (+, -, ×, ÷)</string>
+    <string name="feature_2">Enter nickname at the end</string>
+    <string name="feature_3">Multilingual (FR/EN)</string>
+</resources>
